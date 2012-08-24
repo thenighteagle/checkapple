@@ -73,7 +73,7 @@ int main (int argc,char **argv){
 	}
 
 	if(found == 0){
-		printf("Unable to find Apple device");
+		printf("Unable to find Apple device\n");
 	}
 
 	return 0;
