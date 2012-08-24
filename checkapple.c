@@ -3,7 +3,8 @@ Check Apple
 by thenighteagle
 email: sega_genesis_console@yahoo.com
 
-A prgram that checks connected USB devices to find one(or more) that has Apple as its vendor. It prints out the product name if it can find the product's id in the hash table.
+A prgram that checks connected USB devices to find one(or more) that has Apple as its vendor.
+It prints out the product name if it can find the product's id in the hash table.
 ********************************************/ 
 #include <stdio.h>
 #include <stdlib.h>
