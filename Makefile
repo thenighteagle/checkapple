@@ -10,5 +10,8 @@ checkapple: $(OBJS)
 checkapple.o: checkapple.c
 	$(CC) $(CFLAGS) $(INCLUDE) -c checkapple.c
 
+install:
+	/bin/cp checkapple /usr/bin
+
 clean: 
 	/bin/rm -f checkapple $(OBJS)
